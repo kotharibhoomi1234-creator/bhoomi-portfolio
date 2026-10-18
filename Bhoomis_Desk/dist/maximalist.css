@@ -1,0 +1,69 @@
+/* Full-page Indian maximalism: textile canvas, jewel-coloured paper layers. */
+:root{--pink:#f4a4b6;--lilac:#c4a6ed;--sage:#8dd2bb;--yellow:#f6c94f;--blue:#92cbdc;--wine:#78283e}
+body{background:#8b1740 url('assets/indian-maximalist-textile.webp') repeat;background-size:640px 640px}
+header{max-width:none;background:#651b38;color:#fff9ed;border:0;box-shadow:none;padding-left:max(28px,calc((100vw - 1296px)/2));padding-right:max(28px,calc((100vw - 1296px)/2))}
+.monogram span{color:#f6c94f}nav{background:#fff9ed;color:#211a2b;border:0;box-shadow:0 5px 0 #e6a83b}nav a.active{background:#78283e}.nav-note{color:#fff9ed}
+.hero{max-width:1392px;margin:0 auto;padding-top:30px;background:none;border:0;outline:0;box-shadow:none;border-radius:0;column-gap:46px;row-gap:28px}
+.hero-meta,.hero-foot{background:#164c50;color:#fff9ed;padding:13px 18px;border:0;border-radius:3px}
+.hero-copy{background:#78283e;color:#fff9ed;padding:38px 30px;border-radius:90px 90px 8px 8px;box-shadow:10px 12px 0 #e6a83b;text-align:left}
+.hero-copy .eyebrow{color:#fff9ed}.hero h1{font-size:clamp(64px,7.4vw,108px)}.hero h1 em,.hero .asterisk{color:#f6c94f}.hero .dark{background:#f6c94f;color:#211a2b}
+.collage{background:transparent}.collage .cutout{filter:drop-shadow(0 3px 1px #fff9ed) drop-shadow(0 8px 8px #260b2c66)}
+.collage .object-label{background:#fff9ed;color:#211a2b;border:0;box-shadow:0 3px 0 #78283e}.collage .sticky{background:#f6c94f;color:#211a2b;box-shadow:5px 6px 0 #78283e}
+.section{max-width:1262px;background:none;border:0;outline:0;box-shadow:none;margin:0 auto;padding-top:95px}
+.section.work,.section.contact{border:0;border-radius:0;margin-top:0;margin-bottom:0}
+.section-heading{align-items:center;gap:30px}
+.section-heading>div{background:#f6c94f;padding:24px 28px;border-radius:6px 60px 6px 6px;box-shadow:7px 8px 0 #78283e}
+.section-heading .eyebrow{color:#211a2b}.section-heading h2{color:#211a2b}
+.section-heading>p,.section-heading>.handwriting{background:#164c50;color:#fff9ed;padding:20px 24px;border-radius:4px;box-shadow:5px 6px 0 #e6a83b;margin:0;max-width:100%}
+.filters{width:fit-content;max-width:100%;background:#78283e;padding:9px;border-radius:34px}
+.filters button{color:#fff9ed;border-color:#fff9ed88;background:transparent}.filters button.selected{color:#211a2b;background:#f6c94f;border-color:#f6c94f}
+.project-card{border:0;border-radius:8px 44px 8px 8px;box-shadow:7px 8px 0 #651b38}.project-card:hover{box-shadow:7px 13px 0 #651b38}
+.project-card.lilac{background:#c4a6ed}.project-card.pink{background:#f4a4b6}.project-card.sage{background:#8dd2bb}.project-card.yellow{background:#f6c94f}.project-card.blue{background:#92cbdc}
+.card-body,.card-top,.art-note,.tags{color:#211a2b}.project-card .status{background:#fff9ed}.artifact{background:#fff9ed}
+.skills{background:#164c50;color:#fff9ed;padding:32px;border:0;border-radius:5px;box-shadow:7px 8px 0 #e6a83b}.skills .eyebrow,.skills h3,.skill-groups h4{color:#fff9ed}.skill-groups span{background:#fff9ed;color:#211a2b;border:0}
+.notebook{background:#f7ddb0;border:0;border-radius:16px;box-shadow:0 8px 0 #d8982b,0 13px 0 #78283e}.notebook-page{background-color:#f9dfae}.notebook-page+.notebook-page{background-color:#f7c3c9;border-color:#ba777e}.notebook-page .tag.lilac{background:#c4a6ed}.note{background:#f6c94f;box-shadow:5px 6px 0 #78283e}.note .handwriting{color:#78283e}
+.experience article{background:#8dd2bb;border:0;border-radius:5px;box-shadow:5px 6px 0 #78283e}.experience article:nth-child(2){background:#f4a4b6}.experience .tag{background:#fff9ed}
+.play-grid article{background:#f4a4b6;border:0;border-radius:45px 8px 8px 8px;box-shadow:6px 7px 0 #78283e}.play-grid article:nth-child(2){background:#f6c94f}.play-grid article:nth-child(3){background:#8dd2bb}.play-grid .toy{background:transparent}.play-note{background:#78283e;color:#fff9ed;width:fit-content;max-width:100%;padding:10px 25px;margin:35px auto 0;border-radius:4px}
+.contact>.eyebrow{background:#f6c94f;color:#211a2b;width:fit-content;max-width:100%;padding:10px 18px;margin:0 auto 25px;border-radius:4px}
+.letter{background:#78283e;color:#fff9ed;border:0;border-radius:70px 70px 5px 5px;box-shadow:10px 12px 0 #e6a83b}.letter h2,.letter p,.letter-date,.letter .email,.letter .socials,.letter .signature{color:#fff9ed}.letter h2 em,.letter-star{color:#f6c94f}
+footer{max-width:none;background:#164c50;color:#fff9ed;border:0;padding-left:max(28px,calc((100vw - 1182px)/2));padding-right:max(28px,calc((100vw - 1182px)/2))}
+:is(a,button):focus-visible{outline:3px solid #fff9ed;outline-offset:4px;box-shadow:0 0 0 7px #211a2b}
+#detail{background:#fff9ed;color:#211a2b}#detail .eyebrow{color:#211a2b}
+@media(max-width:1000px){.hero{grid-template-columns:minmax(0,1fr);max-width:850px}.hero-copy{width:100%;max-width:600px;justify-self:center}.collage{margin:15px auto}.section-heading{gap:24px}}
+@media(max-width:760px){body{background-size:480px 480px}header{padding:16px 18px}.hero{margin:0 12px;padding:22px 12px;gap:28px}.hero-copy{padding:32px 22px 26px;border-radius:60px 60px 5px 5px;box-shadow:6px 7px 0 #e6a83b}.hero h1{font-size:clamp(62px,14vw,90px)}.hero-meta,.hero-foot{padding:12px;font-size:10px}.section{max-width:none;padding:70px 22px 10px;margin:0}.section-heading>div{padding:22px 20px;border-radius:5px 45px 5px 5px}.section-heading>p,.section-heading>.handwriting{margin-top:23px;padding:18px 20px;width:auto}.section-heading h2{font-size:clamp(34px,8vw,48px)}.skills{padding:25px 20px}.project-card{border-radius:6px 35px 6px 6px}.letter{padding:38px 25px;border-radius:45px 45px 5px 5px;box-shadow:6px 8px 0 #e6a83b}.contact{padding-bottom:65px}.play-grid article{border-radius:28px 5px 5px 5px}.filters{padding:8px;gap:7px}.filters button{font-size:13px;padding:9px 12px}footer{margin:0;padding:25px 22px}}
+
+/* A quiet paper surface and flow-based stagger keep the desk readable. */
+.hero .collage{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:22px 24px;width:100%;max-width:510px;height:auto;min-height:0;padding:34px 28px 28px;margin:0 auto;background:radial-gradient(ellipse at 85% 10%,#f4d9c4 0,transparent 48%),#fff3dd;border-radius:90px 90px 24px 24px;box-shadow:0 14px 32px #3c102b30;isolation:isolate}
+.hero .collage .object{position:relative;inset:auto;width:100%;max-width:none;min-width:0;margin:0;padding:0;gap:8px;transform:none;align-items:center;justify-self:center}
+.hero .collage .book{grid-column:1;grid-row:1;padding-top:0}
+.hero .collage .coffee{grid-column:2;grid-row:1;padding-top:30px}
+.hero .collage .computer{grid-column:1;grid-row:2;padding-top:0}
+.hero .collage .record{grid-column:2;grid-row:2;padding-top:24px}
+.hero .collage .camera{grid-column:1;grid-row:3;padding-top:0}
+.hero .collage .plant{grid-column:2;grid-row:3;padding-top:20px}
+.hero .collage .object .cutout{width:100%;max-width:140px;aspect-ratio:1;flex-shrink:0;filter:drop-shadow(0 5px 5px #3d243222)}
+.hero .collage .computer .cutout{max-width:155px}
+.hero .collage .camera .cutout,.hero .collage .plant .cutout{max-width:112px}
+.hero .collage .object-label{position:static;inset:auto;transform:none;width:100%;max-width:100%;min-height:36px;margin:0;padding:5px 2px;display:flex;align-items:center;justify-content:center;background:transparent;border:0;box-shadow:none;color:#592337;text-align:center;font-size:13px;font-weight:600;line-height:1.4;white-space:normal;overflow-wrap:normal}
+.hero .collage .sticky{position:static;inset:auto;grid-column:1/-1;grid-row:4;justify-self:center;width:100%;max-width:300px;margin:2px 0 0;padding:17px 20px;transform:none;border-radius:6px;background:#f6d482;box-shadow:none;font-size:16px;line-height:1.5;text-align:center}
+.hero .collage .sticky span{margin-top:7px}
+@media(max-width:760px){.hero .collage{max-width:440px;padding:28px 18px 22px;gap:18px 16px;border-radius:65px 65px 20px 20px}.hero .collage .object-label{font-size:12px}.hero .collage .object .cutout{max-width:125px}.hero .collage .computer .cutout{max-width:140px}.hero .collage .camera .cutout,.hero .collage .plant .cutout{max-width:105px}}
+@media(max-width:390px){.hero .collage{padding:26px 12px 20px;gap:14px 10px}.hero .collage .object-label{font-size:11px}.hero .collage .sticky{font-size:14px}}
+
+/* An intimate salon wall, inspired by antique Indian framed-art interiors. */
+.hero .collage{background-color:#103e43;background-image:linear-gradient(#0b323bcc,#0b323bcc),url('assets/indian-maximalist-textile.webp');background-size:auto,440px;border-radius:4px;padding:32px 28px 25px;gap:23px 26px;box-shadow:inset 0 0 0 3px #b99148,inset 0 0 0 8px #173738,inset 0 0 0 10px #b99148,0 14px 25px #210c2a55}
+.hero .collage .object{gap:12px}
+.hero .collage .gallery-frame{position:relative;display:grid;place-items:center;width:100%;max-width:172px;aspect-ratio:1/1.13;padding:14px;background:radial-gradient(ellipse at center,#234b40,#102b2d);border:9px solid #9f783c;border-image:linear-gradient(135deg,#66502b,#ebcf87 18%,#997035 35%,#e0bc69 50%,#735020 70%,#d7b66d 88%,#765126) 1;box-shadow:inset 0 0 0 2px #e2c780,inset 0 0 0 5px #49391e,inset 0 0 0 6px #a28142,3px 6px 9px #041a25aa}
+.hero .collage .gallery-frame:after{content:'✦';position:absolute;top:1px;left:0;right:0;text-align:center;color:#e2c780;font-size:13px;line-height:16px}
+.hero .collage .object .cutout{display:block;width:100%;max-width:none;aspect-ratio:1;filter:drop-shadow(0 6px 5px #0005);transform:none}
+.hero .collage .book .gallery-frame{background:radial-gradient(ellipse,#6e3544,#3d202e)}
+.hero .collage .coffee .gallery-frame{border-image:none;border-color:#b99a58;border-radius:70px 70px 4px 4px;background:radial-gradient(ellipse,#7e6e34,#443d25);aspect-ratio:1/1.2}
+.hero .collage .record .gallery-frame{background:radial-gradient(ellipse,#47577c,#222c4c)}
+.hero .collage .camera .gallery-frame{aspect-ratio:1.15/1;background:radial-gradient(ellipse,#733b34,#402b2a)}
+.hero .collage .plant .gallery-frame{border-image:none;border-color:#b99a58;border-radius:65px 65px 3px 3px;background:radial-gradient(ellipse,#667044,#2a4538)}
+.hero .collage .object-label{width:fit-content;max-width:100%;min-height:32px;padding:5px 10px;background:#e6cb8f;color:#37291e;border:1px solid #967037;border-radius:2px;box-shadow:0 3px 4px #08252e80;font:600 12px/1.35 Georgia,serif;letter-spacing:.01em}
+.hero .collage .sticky{background:#702b3e;color:#f8e7bb;border:1px solid #d3b165;border-radius:2px;box-shadow:inset 0 0 0 4px #702b3e,inset 0 0 0 5px #b99554;padding:19px 14px;max-width:290px;font:italic 17px/1.5 Georgia,serif}
+.hero .collage .sticky span{color:#e8cf90;font:12px/1.5 Arial,sans-serif}
+.hero .collage .coffee{padding-top:31px}.hero .collage .record{padding-top:17px}.hero .collage .plant{padding-top:18px}
+@media(max-width:760px){.hero .collage{padding:30px 22px 24px;gap:23px 21px;border-radius:3px}.hero .collage .object .cutout{max-width:none}.hero .collage .gallery-frame{padding:12px;border-width:8px}.hero .collage .object-label{font-size:12px}.hero .collage .sticky{font-size:16px}}
+@media(max-width:390px){.hero .collage{padding:25px 17px 22px;gap:20px 16px}.hero .collage .gallery-frame{padding:8px;border-width:6px}.hero .collage .object-label{font-size:11px;padding:5px 6px}.hero .collage .gallery-frame:after{font-size:10px}.hero .collage .sticky{font-size:15px}}

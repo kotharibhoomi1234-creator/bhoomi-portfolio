@@ -1,0 +1,14 @@
+{
+  "name": "bhoomis-desk",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "node verify.mjs",
+    "preview": "node server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,48 @@
+/* Solid canvas; the colour and ornament live in the labels and little details. */
+body{background:#f8ebd5;background-image:none;color:#382934}
+header{background:#922c4f;color:#fff1d5;border-bottom:4px solid #efb62f}
+.hero-meta,.hero-foot{background:#244b83;color:#fff3dc;border-radius:2px}
+.hero-copy{background:#efb62f;color:#45263c;border-radius:6px;box-shadow:8px 8px 0 #d54473;position:relative;overflow:hidden}
+.hero-copy .eyebrow{color:#45263c}.hero-copy>p{color:#45263c}
+.hero h1{font-family:Georgia,serif;font-weight:900;letter-spacing:-.055em;color:#922c4f;text-shadow:2px 2px 0 #fff1cd}
+.hero h1 em{color:#244b83}.hero .asterisk{color:#d54473;text-shadow:none}
+.hero .dark{background:#244b83;color:#fff3dc;border-radius:3px;box-shadow:3px 3px 0 #fff3dc}
+.hero-copy:after{content:'';position:absolute;right:18px;bottom:18px;width:66px;height:45px;background:url('assets/lotus-sign.svg') center/contain no-repeat;pointer-events:none}
+.hero .collage{background:#e8d8bd;background-image:none;box-shadow:none;border-radius:5px;padding-top:30px}
+.hero .collage .gallery-frame{border-image:none;border:7px solid #efb62f;background:#922c4f;box-shadow:0 0 0 2px #244b83,inset 0 0 0 2px #fff0cf,4px 5px 0 #244b8330}
+.hero .collage .gallery-frame:after{color:#f8d266;content:'✦  •  ✦';letter-spacing:5px;font-size:11px}
+.hero .collage .book .gallery-frame{background:#d54473;border-color:#efb62f}
+.hero .collage .coffee .gallery-frame{background:#244b83;border-color:#e698ad}
+.hero .collage .computer .gallery-frame{background:#2a7763;border-color:#efb62f}
+.hero .collage .record .gallery-frame{background:#d65a38;border-color:#efb62f}
+.hero .collage .camera .gallery-frame{background:#244b83;border-color:#e698ad}
+.hero .collage .plant .gallery-frame{background:#922c4f;border-color:#efb62f}
+.hero .collage .object-label{background:#fff0cf;border:1px solid #922c4f;box-shadow:2px 2px 0 #d54473;color:#5b263e;font-family:Georgia,serif;font-weight:700}
+.hero .collage .sticky{background:#244b83;border-color:#efb62f;color:#fff0cf;box-shadow:inset 0 0 0 4px #244b83,inset 0 0 0 5px #efb62f}
+.hero .collage .sticky span{color:#ffe094}
+.section-heading>div{position:relative;background:#efb62f;border-radius:3px;box-shadow:5px 5px 0 #d54473;padding-right:65px}
+.section-heading>div:after{content:'';position:absolute;right:10px;top:16px;width:46px;height:34px;background:url('assets/lotus-sign.svg') center/contain no-repeat;pointer-events:none}
+.section-heading h2{color:#244b83;font-weight:800;letter-spacing:-.03em;text-shadow:1px 1px 0 #fff2d5}
+.section-heading h2 em{color:#922c4f;font-weight:500}
+.section-heading>p,.section-heading>.handwriting{background:#f4d8dc;color:#582b40;box-shadow:none}
+.eyebrow,.mini{font-weight:700;letter-spacing:.09em}
+.project-card{border-radius:3px;box-shadow:4px 5px 0 #244b83}.card-top{border-bottom:2px solid #922c4f;padding-bottom:12px}
+.skills{background:#244b83;box-shadow:5px 6px 0 #efb62f}
+.play-grid article{border-radius:4px;box-shadow:4px 5px 0 #244b83}
+.play-grid h3{font-family:Georgia,serif;font-weight:700;color:#672b43}
+.play-grid .mini{display:inline-block;border-bottom:2px solid #922c4f;padding-bottom:7px}
+.letter{border-radius:4px;background:#922c4f;box-shadow:7px 8px 0 #efb62f}
+footer{background:#244b83}
+/* The book, lid and record keep their existing click states. */
+.hero .collage .object .gallery-frame{transition:transform .22s,box-shadow .22s}
+.hero .collage .object:hover .gallery-frame,.hero .collage .object:focus-visible .gallery-frame{transform:translateY(-5px) rotate(-2deg);box-shadow:0 0 0 2px #244b83,inset 0 0 0 2px #fff0cf,6px 9px 0 #244b8335}
+.hero .collage .record:hover .cutout{animation:spin 6s linear infinite}
+/* Collection pages share the solid canvas and painted-label accents. */
+.intro{background:#922c4f;color:#ffe095;border-radius:4px;box-shadow:6px 6px 0 #efb62f;position:relative;padding-right:100px}
+.intro:after{content:'';position:absolute;right:25px;bottom:25px;width:64px;height:45px;background:url('assets/lotus-sign.svg') center/contain no-repeat}
+.intro h1{font-weight:700;text-shadow:2px 2px 0 #532336}
+.card,.place-group{border-radius:4px;box-shadow:4px 4px 0 #244b83}
+.card h2,.place-group h2{font-weight:700;color:#6e2947}
+.poem-list{background:#f4d8dc;border-radius:4px}.reading{background:#fff9ef;border-radius:4px}
+@media(max-width:760px){.hero-copy{border-radius:4px}.hero .collage{border-radius:4px}.hero-copy:after{width:44px;height:32px;right:12px;bottom:12px}.section-heading>div{border-radius:3px;padding-right:60px}.letter,.play-grid article{border-radius:4px}.intro{padding-right:75px}.intro:after{width:42px;right:15px}.hero .collage .gallery-frame{border-width:6px}}
+@media(prefers-reduced-motion:reduce){.hero .collage .object:hover .gallery-frame,.hero .collage .object:focus-visible .gallery-frame{transform:none}.hero .collage .record:hover .cutout{animation:none}}

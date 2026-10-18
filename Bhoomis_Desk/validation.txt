@@ -1,0 +1,7 @@
+2026-10-18 — Current update
+PASS: node verify.mjs; all four pages, JavaScript syntax, unique IDs, local links, anchors, CSS and asset references.
+PASS: five projects, 37 original poems, six playlists, 90 places and eleven portraits retained.
+PASS: node --test tests/*.test.mjs; six tests covering no autoplay, play/spin synchronization, 15-second cutoff, next-track selection, early stop, hidden-tab/page-exit stop and failed loading recovery.
+PASS: all twelve official Apple preview URLs returned HTTP 200 with audio content type; verified actual playlist membership for two tracks per playlist.
+Source includes complete dist tree, local development server, verification and playback tests, README, deployment instructions and Netlify/Vercel configurations.
+Browser visual checks and device audio output were unavailable; no browser/device verification is claimed.
